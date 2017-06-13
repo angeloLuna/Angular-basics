@@ -1,0 +1,64 @@
+<a class="waves-effect waves-light btn "ng-click="$ctrl.variable = '1'" >Pagina 1</a>
+<a class="waves-effect waves-light btn "ng-click="$ctrl.variable = '2'" >Pagina 2</a>
+<a class="waves-effect waves-light btn "ng-click="$ctrl.variable = '3'" >Pagina 3</a>
+<div ng-if="$ctrl.variable == '1'">
+<div class="row" ng-repeat="song in $ctrl.array"  ng-if="song.pag== '1' " >
+<div class="col s12 m7">
+  <h3 class="header">{{song.cancion}}</h3>
+  <div class="card horizontal">
+    <div class="card-image">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGEUYS7Ja9mOqAJbtFzW2qqS79_98aoCeRNp6-lQxAnyqC4rLE">
+    </div>
+    <div class="card-stacked">
+      <div class="card-content">
+        <p>{{"Duracion: "+song.duracion}}</p>
+        <p>{{"Numero de cancion: "+song.id}}</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+
+
+
+<div ng-if="$ctrl.variable == '2'">
+<div class="row" ng-repeat="song in $ctrl.array"  ng-if="song.pag== '2' " >
+<div class="col s12 m7">
+  <h3 class="header">{{song.cancion}}</h3>
+  <div class="card horizontal">
+    <div class="card-image">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGEUYS7Ja9mOqAJbtFzW2qqS79_98aoCeRNp6-lQxAnyqC4rLE">
+    </div>
+    <div class="card-stacked">
+      <div class="card-content">
+        <p>{{"Duracion: "+song.duracion}}</p>
+        <p>{{"Numero de cancion: "+song.id}}</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+
+
+<div ng-if="$ctrl.variable == '3'">
+<div class="row" ng-repeat="song in $ctrl.array"  ng-if="song.pag== '3' " >
+<div class="col s12 m7">
+  <h3 class="header">{{song.cancion}}</h3>
+  <div class="card horizontal">
+    <div class="card-image">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGEUYS7Ja9mOqAJbtFzW2qqS79_98aoCeRNp6-lQxAnyqC4rLE">
+    </div>
+    <div class="card-stacked">
+      <div class="card-content">
+        <p>{{"Duracion: "+song.duracion}}</p>
+        <p>{{"Numero de cancion: "+song.id}}</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>

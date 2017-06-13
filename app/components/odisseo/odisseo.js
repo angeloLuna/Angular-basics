@@ -2,14 +2,14 @@
   'use strict'
   var component = {
     controller: componentCtrl,
-    templateUrl:'app/components/muse/muse.html'
+    templateUrl:'app/components/odisseo/odisseo.html'
   }
   angular.module("Practica")
-    .component("practicaComponent", component)
+    .component("odisseoComponent", component)
     function componentCtrl(){
       var com = this;
-      com.song= "Absolution"
-      com.singer = "Muse"
+      com.song= "Dias de Fuego"
+      com.singer = "Odisseo"
 
 
     }

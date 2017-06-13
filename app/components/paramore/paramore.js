@@ -8,7 +8,7 @@
     .component("practicaComponentp", componentp)
     function componentCtrl(){
       var com = this;
-      com.song= "Hate to see you heart break"
+      com.song= "Brand New Eyes"
       com.singer = "Paramore"
 
     }
