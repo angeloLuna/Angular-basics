@@ -12,7 +12,7 @@
   function pateCtrl(){
 
       var pate = this;
-      
+
       pate.check = function(){
         var obj = {
           nombre: pate.nombre,
